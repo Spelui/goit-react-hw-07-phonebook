@@ -1,0 +1,18 @@
+.contacts {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    font-size: 21px;
+    margin-right: 20px;
+  }
+}
